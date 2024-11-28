@@ -1,0 +1,3 @@
+ npx tailwindcss -i ./src/style.css -o ./dist/styles.css --watch
+
+ flex justify-center bg-white h-36 w-36 items-center rounded-xl
