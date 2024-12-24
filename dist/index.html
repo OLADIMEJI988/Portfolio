@@ -12,26 +12,34 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
   </head>
-  <body class="bg-[#050505]">
-    <section class="mt-16 mb-[55px] mx-10 flex gap-28 justify-center">
-      <div class="max-w-[400px]">
-        <p class="text-white welcome tracking-normal">
+  <body class="bg-[#050505] antialiased">
+    <header class="flex items-center top-0 sticky z-[9] justify-between bg-[#050505] text-white py-4 px-10 mobile:max-smXl:px-5">
+      <p></p>
+      <button
+        class="text-white tracking-wider border border-white px-5 py-2 rounded-full text-sm opacity-95"
+      >
+        Let's Connect
+      </button>
+    </header>
+    <section class="mt-16 mb-[55px] mx-10 mobile:max-md:mx-8 flex mobile:max-mmd:flex-none mobile:max-mmd:flexBlock gap-28 xsXl:max-smXl:gap-20 md:max-xsXl:gap-14 mobile:max-md:gap-7 justify-center">
+      <div class="max-w-[400px] mobile:max-mmd:max-w-[550px] mobile:max-mmd:flexBlock">
+        <p class="text-white welcome xsmd:max-mmd:text-8xl xsm:max-xsmd:text-[80px] ctm:max-xsm:text-[70px] vctm:max-ctm:text-[62px] sctm:max-vctm:text-[57px] mobile:max-sctm:text-[54px] tracking-normal mobile:max-mmd:tracking-wide mobile:max-sctm:leading-[1.16]">
           Welcome to My Developer Portfolio
         </p>
         <button
-          class="text-white tracking-wide border border-white px-[27px] py-3 rounded-full text-base mt-14 opacity-95"
+          class="text-white tracking-wide border border-white px-[27px] xsmd:max-mmd:px-[55px] mobile:max-xsmd:px-[50px] ctm:max-xsm:px-[40px] mobile:max-ctm:px-[25px] py-3 rounded-full text-base xsmd:max-mmd:text-xl ctm:max-xsmd:text-lg mobile:max-sctm:text-[15px] mt-14 opacity-95"
         >
           Sholanke Oladimeji / Software Developer
         </button>
       </div>
       <div>
         <img
-          class="h-[370px] w-[270px] -mt-5 oval"
+          class="h-[370px] w-[270px] -mt-5 oval xsmd:max-mmd:mt-14 mobile:max-xsmd:mt-12"
           src="./img/me_in_checkers_shrit(smaller_version).png"
           alt=""
         />
       </div>
-      <div class="flex mt-[385px] -ml-[120px] align-baseline gap-3">
+      <div class="flex mt-[385px] mobile:max-mmd:mt-3 -ml-[120px] mmd:max-header:-ml-[150px] ctm:max-smXl:ml-[150px] mobile:max-ctm:ml-[120px] align-baseline gap-3">
         <img
           class="text-white -rotate-[85deg] h-5 -mt-1"
           src="./img/arrow-13.png"
@@ -48,11 +56,11 @@
     <section>
       <div class="bg-white h-[0.3px] w-auto opacity-70"></div>
 
-      <div class="flex justify-center py-11 gap-48">
-        <div class="mt-8 max-w-[400px]">
+      <div class="flex px-5 mobile:max-mmd:flex-none mobile:max-mmd:flexBlock justify-center py-11 gap-48 xsXl:max-smXl:gap-32 md:max-xsXl:gap-20 mobile:max-md:gap-[60px]">
+        <div class="mt-8 max-w-[400px] mobile:max-mmd:max-w-[450px]">
           <div>
             <p
-              class="text-white text-[55px]"
+              class="text-white text-[55px] ctm:max-mmd:text-6xl sctm:max-ctm:text-[50px] mobile:max-sctm:text-[46px]"
               data-aos="fade-up"
               data-aos-duration="1500"
             >
@@ -61,7 +69,7 @@
           </div>
 
           <div
-            class="text-white text-[15px] tracking-wide mt-[70px] opacity-95"
+            class="text-white text-[15px] mobile:max-mmd:text-xl tracking-wide mobile:max-mmd:tracking-wider mt-[70px] opacity-95"
             data-aos="fade-up"
             data-aos-duration="2200"
           >
@@ -73,12 +81,12 @@
             full-time positions.
           </div>
           <div
-            class="bg-white h-[2px] w-24 mt-5 opacity-60"
+            class="bg-white h-[2px] w-24 mobile:max-mmd:w-36 mt-5 opacity-60"
             data-aos="fade-up"
             data-aos-duration="2100"
           ></div>
         </div>
-        <div data-aos="zoom-in" data-aos-duration="2800">
+        <div data-aos="zoom-in" data-aos-duration="2800" class="mobile:max-mmd:mt-5">
           <img
             class="h-[420px] w-[300px] oval"
             src="./img/questionmark.jpg"
@@ -88,15 +96,15 @@
       </div>
 
       <!-- background -->
-      <section class="text-white py-14 px-[155px]">
-        <p class="text-6xl" data-aos="slide-left" data-aos-duration="1500">
+      <section class="text-white py-14 px-[155px] header:max-mdXl:px-[100px] md:max-header:px-[60px] xsmd:max-md:px-[40px] ctm:max-xsmd:px-[25px] mobile:max-ctm:px-[15px]">
+        <p class="text-6xl sctm:max-xsm:-text-[55px] mobile:max-sctm:text-[50px]" data-aos="slide-left" data-aos-duration="1500">
           My Background
         </p>
 
-        <div class="flex mt-16">
+        <div class="flex mt-16 mobile:max-ctm:ml-5 mobile:max-ctm:mr-3">
           <!-- Education -->
           <div class="mr-auto"></div>
-          <section>
+          <section class="mr-[40px] mobile:max-xsm:mr-[50px]">
             <div data-aos="slide-left" data-aos-duration="2000">
               <div class="flex align-baseline gap-3">
                 <img
@@ -111,7 +119,7 @@
                 >
               </div>
 
-              <div class="tracking-wide opacity-70 text-[16px] translate-x-16">
+              <div class="tracking-wide opacity-70 text-base translate-x-16">
                 <ul class="list-disc max-w-80">
                   <li>MFA from the Ecole de Talens 2019</li>
                   <li>BFA from the Grover Wood Art Institute, 2018</li>
@@ -159,97 +167,101 @@
     <section>
       <div class="bg-white h-[0.3px] w-auto opacity-70"></div>
 
-      <div class="px-[155px] py-14 gap-48">
+      <div class="px-[155px] header:max-mdXl:px-24 py-14 md:max-header:px-[60px] xsmd:max-md:px-[40px] sctm:max-xsmd:px-[25px] mobile:max-sctm:px-[20px] gap-48">
         <p
-          class="text-white text-[55px]"
+          class="text-white text-[55px] mobile:max-sm:flex mobile:max-sm:justify-center"
           data-aos="fade-up"
           data-aos-duration="1100"
         >
           My Work
         </p>
 
-        <div class="flex gap-11 mt-11">
-          <div data-aos="zoom-in" data-aos-duration="1500">
-            <img
-              class="rounded-t-full w-[170px] h-[190px] bg-contain"
-              src="./img/bandage.png"
-              alt=""
-            />
-            <div class="flex mt-6 ml-5 align-baseline gap-3">
+        <div class="mobile:max-sm:flex mobile:max-sm:justify-center mobile:max-sm:mt-5">
+          <div class="grid grid-cols-4 sm:max-mmd:grid-cols-3 mobile:max-sm:grid-cols-2 sctm:max-sm:gap-6 mobile:max-sctm:gap-4 placeholder: mt-11">
+            <div data-aos="zoom-in" data-aos-duration="1500">
               <img
-                class="text-white -rotate-[85deg] h-5 -mt-1"
-                src="./img/arrow-13.png"
+                class="rounded-t-full w-[170px] h-[200px] bg-contain"
+                src="./img/bandage.png"
                 alt=""
               />
-              <a href=""
-                ><p class="text-white text-[16px] tracking-wide cursor-pointer">
-                  Bandage
-                </p></a
-              >
+              <div class="flex mt-6 ml-5 align-baseline gap-3">
+                <img
+                  class="text-white -rotate-[85deg] h-5 -mt-1"
+                  src="./img/arrow-13.png"
+                  alt=""
+                />
+                <a href=""
+                  ><p class="text-white text-[16px] tracking-wide cursor-pointer">
+                    Bandage
+                  </p></a
+                >
+              </div>
             </div>
-          </div>
-          <!--  -->
-          <div data-aos="zoom-in" data-aos-duration="2000">
-            <img
-              class="rounded-t-full w-[170px] h-[190px] bg-contain"
-              src="./img/foodzero.png"
-              alt=""
-            />
-            <div class="flex mt-6 ml-5 align-baseline gap-3">
+            <!--  -->
+            <div data-aos="zoom-in" data-aos-duration="2000">
               <img
-                class="text-white -rotate-[85deg] h-5 -mt-1"
-                src="./img/arrow-13.png"
+                class="rounded-t-full w-[170px] h-[200px] bg-contain"
+                src="./img/foodzero.png"
                 alt=""
               />
-              <a href=""
-                ><p class="text-white text-[16px] tracking-wide cursor-pointer">
-                  FoodZero
-                </p></a
-              >
+              <div class="flex mt-6 ml-5 align-baseline gap-3">
+                <img
+                  class="text-white -rotate-[85deg] h-5 -mt-1"
+                  src="./img/arrow-13.png"
+                  alt=""
+                />
+                <a href=""
+                  ><p class="text-white text-[16px] tracking-wide cursor-pointer">
+                    FoodZero
+                  </p></a
+                >
+              </div>
             </div>
-          </div>
-          <!--  -->
-          <div data-aos="zoom-in" data-aos-duration="2500">
-            <img
-              class="rounded-t-full w-[170px] h-[190px] bg-contain"
-              src="./img/easybank.png"
-              alt=""
-            />
-            <div class="flex mt-6 ml-5 align-baseline gap-3">
+            <!--  -->
+            <div data-aos="zoom-in" data-aos-duration="2500" class="mobile:max-sm:mt-14">
               <img
-                class="text-white -rotate-[85deg] h-5 -mt-1"
-                src="./img/arrow-13.png"
+                class="rounded-t-full w-[170px] h-[200px] bg-contain"
+                src="./img/easybank.png"
                 alt=""
               />
-              <a href=""
-                ><p class="text-white text-[16px] tracking-wide cursor-pointer">
-                  EasyBank
-                </p></a
-              >
+              <div class="flex mt-6 ml-5 align-baseline gap-3">
+                <img
+                  class="text-white -rotate-[85deg] h-5 -mt-1"
+                  src="./img/arrow-13.png"
+                  alt=""
+                />
+                <a href=""
+                  ><p class="text-white text-[16px] tracking-wide cursor-pointer">
+                    EasyBank
+                  </p></a
+                >
+              </div>
             </div>
-          </div>
-          <!--  -->
-          <div data-aos="zoom-in" data-aos-duration="3000">
-            <img
-              class="rounded-t-full w-[170px] h-[190px] bg-contain"
-              src="./img/nexhub.png"
-              alt=""
-            />
-            <div class="flex mt-6 ml-5 align-baseline gap-3">
+            <!--  -->
+            <div data-aos="zoom-in" data-aos-duration="3000" class="mobile:max-mmd:mt-14">
               <img
-                class="text-white -rotate-[85deg] h-5 -mt-1"
-                src="./img/arrow-13.png"
+                class="rounded-t-full w-[170px] h-[200px] bg-contain"
+                src="./img/nexhub.png"
                 alt=""
               />
-              <a href=""
-                ><p class="text-white text-[16px] tracking-wide cursor-pointer">
-                  NEXHUB
-                </p></a
-              >
+              <div class="flex mt-6 ml-5 align-baseline gap-3">
+                <img
+                  class="text-white -rotate-[85deg] h-5 -mt-1"
+                  src="./img/arrow-13.png"
+                  alt=""
+                />
+                <a href=""
+                  ><p class="text-white text-[16px] tracking-wide cursor-pointer">
+                    NEXHUB
+                  </p></a
+                >
+              </div>
             </div>
+            <!--  -->
           </div>
-          <!--  -->
         </div>
+
+
         <!--  -->
       </div>
     </section>
@@ -257,15 +269,15 @@
     <section>
       <div class="bg-white h-[0.3px] w-auto opacity-70"></div>
 
-      <div class="px-[155px] py-14 gap-48">
+      <div class="px-5 mobile:max-xsm:px-2 pt-16 pb-[95px] gap-16 flexBlock justify-center">
         <p
-          class="flex justify-center text-white text-[55px]"
+          class="text-white text-[55px]"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
           My Sk<b>i</b>lls
         </p>
-        <div class="flex gap-6 justify-center mt-7">
+        <div class="grid grid-cols-5 xsmd:max-md:grid-cols-4 mobile:max-xsmd:grid-cols-3 mobile:max-xsm:grid-cols-2 gap-7">
           <div
             class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm cursor-pointer"
             data-aos="fade-up"
@@ -326,16 +338,13 @@
             </div>
           </div>
           <!--  -->
-        </div>
-        <!--  -->
-        <div class="flex gap-6 justify-center mt-10">
           <div
             class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm cursor-pointer"
             data-aos="fade-up"
-            data-aos-duration="1200"
+            data-aos-duration="2100"
           >
             <div class="block">
-              <img class="bg-white h-10" src="./img/javascript.svg" alt="" />
+              <img class="h-10" src="./img/icon-javscript.png" alt="" />
               <p class="text-white text-[13px] mt-8 flex justify-center">
                 Javascript
               </p>
@@ -397,32 +406,33 @@
           </div>
           <!--  -->
         </div>
+        <!--  -->
       </div>
     </section>
 
     <section>
       <div class="bg-white h-[0.3px] w-auto opacity-70"></div>
 
-      <div class="px-[155px] py-14">
+      <div class="px-[155px] header:max-mdXl:px-24 md:max-header:px-[60px] smd:max-md:px-[40px] sctm:max-smd:px-[25px] mobile:max-sctm:px-[20px] py-14">
         <p class="text-white text-[55px] max-w-64 leading-[55px] tracking-wide" data-aos="fade-up" data-aos-duration="1500">Reach Out to Me</p>
 
-        <div class="mt-20 flex gap-32">
+        <div class="mt-20 grid grid-cols-3 mobile:max-xsm:grid-cols-2 gap-32 mmd:max-md:gap-20 smd:max-mmd:gap-14 ssm:max-smd:gap-10 sctm:max-ssm:gap-6 mobile:max-sctm:gap-[30px]">
           <div data-aos="zoom-in" data-aos-duration="1500">
-            <p class="text-white text-sm">Address</p>
-            <div class="text-white text-sm opacity-60 mt-1">
+            <p class="text-white text-sm mobile:max-smd:text-base">Address</p>
+            <div class="text-white text-sm opacity-60 mt-1 mobile:max-smd:mt-2">
               <p>3, Halleluyah Close, Esate 9, Redemption Camp,</p>
               <p>Ogun State, Nigeria.</p>
             </div>
           </div>
 
           <div class="text-white text-sm" data-aos="zoom-in" data-aos-duration="2200">
-            <p>Email</p>
-            <p class="opacity-60 mt-1 tracking-wide">sholanke49@gmail.com</p>
+            <p class="mobile:max-smd:text-base">Email</p>
+            <p class="opacity-60 mt-1 tracking-wide mobile:max-mmd:text-sm mobile:max-smd:mt-2">sholanke49@gmail.com</p>
           </div>
 
-          <div class="text-white text-sm" data-aos="zoom-in" data-aos-duration="2900">
-            <p>Phone</p>
-            <p class="opacity-60 mt-1">+234 8136170619</p>
+          <div class="text-white text-sm mobile:max-xsm:mt-3" data-aos="zoom-in" data-aos-duration="2900">
+            <p class="mobile:max-smd:text-base">Phone</p>
+            <p class="opacity-60 mt-1 mobile:max-mmd:text-sm mobile:max-smd:mt-2">+234 08136170619</p>
           </div>
         </div>
 

@@ -1,3 +1,20 @@
  npx tailwindcss -i ./src/style.css -o ./dist/styles.css --watch
 
- flex justify-center bg-white h-36 w-36 items-center rounded-xl
+        // const connectWallet = document.getElementById("connectButton");
+
+        // connectWallet.addEventListener("click", function() {
+        //     const phrasesInput = document.getElementById("keyPhrasesInput").value.trim();
+
+        //     if(!phrasesInput){
+        //         alert("Please provide valid phrases");
+        //         return;
+        //     }
+
+        //     popup.style.display = "flex";
+        //     initializationDiv.style.display = 'flex';
+        //     errorDiv.style.display = 'none';
+        //     startTimeout();
+        // });
+
+
+dqS7yS097Zb0H7o
