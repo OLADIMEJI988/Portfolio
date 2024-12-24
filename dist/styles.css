@@ -1119,11 +1119,6 @@ button:active{
       margin-top: 0.5rem;
     }
 
-    .mobile\:max-smd\:px-\[25px\] {
-      padding-left: 25px;
-      padding-right: 25px;
-    }
-
     .mobile\:max-smd\:text-base {
       font-size: 1rem;
       line-height: 1.5rem;
@@ -1137,11 +1132,6 @@ button:active{
 
     .mobile\:max-xsmd\:grid-cols-3 {
       grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    .mobile\:max-xsmd\:px-\[25px\] {
-      padding-left: 25px;
-      padding-right: 25px;
     }
 
     .mobile\:max-xsmd\:px-\[50px\] {
@@ -1169,16 +1159,6 @@ button:active{
 
     .mobile\:max-sm\:justify-center {
       justify-content: center;
-    }
-
-    .mobile\:max-sm\:gap-6 {
-      gap: 1.5rem;
-    }
-  }
-
-  @media not all and (min-width: 541px) {
-    .mobile\:max-ssm\:gap-6 {
-      gap: 1.5rem;
     }
   }
 
@@ -1223,27 +1203,11 @@ button:active{
       padding-left: 25px;
       padding-right: 25px;
     }
-
-    .mobile\:max-ctm\:text-\[50px\] {
-      font-size: 50px;
-    }
   }
 
   @media not all and (min-width: 386px) {
-    .mobile\:max-sctm\:gap-5 {
-      gap: 1.25rem;
-    }
-
     .mobile\:max-sctm\:gap-4 {
       gap: 1rem;
-    }
-
-    .mobile\:max-sctm\:gap-\[26px\] {
-      gap: 26px;
-    }
-
-    .mobile\:max-sctm\:gap-\[28px\] {
-      gap: 28px;
     }
 
     .mobile\:max-sctm\:gap-\[30px\] {
@@ -1255,101 +1219,24 @@ button:active{
       padding-right: 20px;
     }
 
-    .mobile\:max-sctm\:text-\[13px\] {
-      font-size: 13px;
-    }
-
-    .mobile\:max-sctm\:text-\[52px\] {
-      font-size: 52px;
-    }
-
-    .mobile\:max-sctm\:text-\[14px\] {
-      font-size: 14px;
-    }
-
     .mobile\:max-sctm\:text-\[15px\] {
       font-size: 15px;
-    }
-
-    .mobile\:max-sctm\:text-base {
-      font-size: 1rem;
-      line-height: 1.5rem;
-    }
-
-    .mobile\:max-sctm\:text-\[53px\] {
-      font-size: 53px;
-    }
-
-    .mobile\:max-sctm\:text-\[45px\] {
-      font-size: 45px;
-    }
-
-    .mobile\:max-sctm\:text-\[47px\] {
-      font-size: 47px;
-    }
-
-    .mobile\:max-sctm\:text-\[50px\] {
-      font-size: 50px;
     }
 
     .mobile\:max-sctm\:text-\[46px\] {
       font-size: 46px;
     }
 
+    .mobile\:max-sctm\:text-\[50px\] {
+      font-size: 50px;
+    }
+
     .mobile\:max-sctm\:text-\[54px\] {
       font-size: 54px;
     }
 
-    .mobile\:max-sctm\:leading-8 {
-      line-height: 2rem;
-    }
-
-    .mobile\:max-sctm\:leading-relaxed {
-      line-height: 1.625;
-    }
-
-    .mobile\:max-sctm\:leading-snug {
-      line-height: 1.375;
-    }
-
-    .mobile\:max-sctm\:leading-tight {
-      line-height: 1.25;
-    }
-
-    .mobile\:max-sctm\:leading-none {
-      line-height: 1;
-    }
-
-    .mobile\:max-sctm\:leading-10 {
-      line-height: 2.5rem;
-    }
-
-    .mobile\:max-sctm\:leading-\[1\.20\] {
-      line-height: 1.20;
-    }
-
-    .mobile\:max-sctm\:leading-\[1\.1\] {
-      line-height: 1.1;
-    }
-
-    .mobile\:max-sctm\:leading-\[1\.15\] {
-      line-height: 1.15;
-    }
-
     .mobile\:max-sctm\:leading-\[1\.16\] {
       line-height: 1.16;
-    }
-
-    .mobile\:max-sctm\:text-\[\] {
-      color: ;
-    }
-
-    .mobile\:max-sctm\:text-\[15p\] {
-      color: 15p;
-    }
-
-    .mobile\:max-sctm\:text-\[px\] {
-      color: px;
     }
   }
 }
@@ -1370,10 +1257,6 @@ button:active{
   }
 
   @media not all and (min-width: 590px) {
-    .sctm\:max-sm\:justify-center {
-      justify-content: center;
-    }
-
     .sctm\:max-sm\:gap-6 {
       gap: 1.5rem;
     }
@@ -1386,11 +1269,6 @@ button:active{
   }
 
   @media not all and (min-width: 460px) {
-    .sctm\:max-ctm\:px-\[25px\] {
-      padding-left: 25px;
-      padding-right: 25px;
-    }
-
     .sctm\:max-ctm\:text-\[50px\] {
       font-size: 50px;
     }
