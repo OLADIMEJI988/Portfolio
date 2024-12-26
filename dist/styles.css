@@ -754,6 +754,18 @@ button:active{
   height: 420px;
 }
 
+.h-\[43px\] {
+  height: 43px;
+}
+
+.h-\[44px\] {
+  height: 44px;
+}
+
+.h-\[45px\] {
+  height: 45px;
+}
+
 .w-24 {
   width: 6rem;
 }
@@ -878,9 +890,9 @@ button:active{
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.bg-\[\#050505\] {
+.bg-\[\#000000\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(5 5 5 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -892,9 +904,9 @@ button:active{
   background-size: contain;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-5 {
@@ -935,6 +947,21 @@ button:active{
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .pb-\[95px\] {
@@ -1045,9 +1072,9 @@ button:active{
   }
 
   @media not all and (min-width: 976px) {
-    .mobile\:max-smXl\:px-5 {
-      padding-left: 1.25rem;
-      padding-right: 1.25rem;
+    .mobile\:max-smXl\:px-2 {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
     }
   }
 
@@ -1206,6 +1233,66 @@ button:active{
   }
 
   @media not all and (min-width: 386px) {
+    .mobile\:max-sctm\:h-\[\] {
+      height: ;
+    }
+
+    .mobile\:max-sctm\:h-2 {
+      height: 0.5rem;
+    }
+
+    .mobile\:max-sctm\:h-20 {
+      height: 5rem;
+    }
+
+    .mobile\:max-sctm\:h-10 {
+      height: 2.5rem;
+    }
+
+    .mobile\:max-sctm\:h-1 {
+      height: 0.25rem;
+    }
+
+    .mobile\:max-sctm\:h-12 {
+      height: 3rem;
+    }
+
+    .mobile\:max-sctm\:h-\[1\] {
+      height: 1;
+    }
+
+    .mobile\:max-sctm\:h-\[10p\] {
+      height: 10p;
+    }
+
+    .mobile\:max-sctm\:h-\[10px\] {
+      height: 10px;
+    }
+
+    .mobile\:max-sctm\:h-\[0px\] {
+      height: 0px;
+    }
+
+    .mobile\:max-sctm\:h-\[40px\] {
+      height: 40px;
+    }
+
+    .mobile\:max-sctm\:max-w-\[\] {
+      max-width: ;
+    }
+
+    .mobile\:max-sctm\:max-w-\[650px\] {
+      max-width: 650px;
+    }
+
+    .mobile\:max-sctm\:max-w-\[50px\] {
+      max-width: 50px;
+    }
+
+    .mobile\:max-sctm\:max-w-\[850px\] {
+      max-width: 850px;
+    }
+
     .mobile\:max-sctm\:gap-4 {
       gap: 1rem;
     }
@@ -1217,6 +1304,16 @@ button:active{
     .mobile\:max-sctm\:px-\[20px\] {
       padding-left: 20px;
       padding-right: 20px;
+    }
+
+    .mobile\:max-sctm\:px-3 {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+    }
+
+    .mobile\:max-sctm\:px-4 {
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
 
     .mobile\:max-sctm\:text-\[15px\] {
@@ -1235,13 +1332,39 @@ button:active{
       font-size: 54px;
     }
 
+    .mobile\:max-sctm\:text-\[5px\] {
+      font-size: 5px;
+    }
+
+    .mobile\:max-sctm\:text-\[55px\] {
+      font-size: 55px;
+    }
+
+    .mobile\:max-sctm\:text-\[56px\] {
+      font-size: 56px;
+    }
+
+    .mobile\:max-sctm\:text-\[13px\] {
+      font-size: 13px;
+    }
+
     .mobile\:max-sctm\:leading-\[1\.16\] {
       line-height: 1.16;
+    }
+
+    .mobile\:max-sctm\:text-\[\] {
+      color: ;
     }
   }
 }
 
 @media (min-width: 386px) {
+  @media not all and (min-width: 792px) {
+    .sctm\:max-mmd\:max-w-\[550px\] {
+      max-width: 550px;
+    }
+  }
+
   @media not all and (min-width: 725px) {
     .sctm\:max-smd\:px-\[25px\] {
       padding-left: 25px;
