@@ -12,39 +12,56 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
   </head>
-  <body class="bg-[#000000] antialiased">
-    <header class="flex items-center top-0 sticky z-[9] justify-between bg-[#000000] text-white py-4 px-6 mobile:max-smXl:px-2">
-      <img src="./img/my_logo.jpg" alt="" class="h-[45px] mobile:max-sctm:h-[40px]">
+  <body class="bg-black antialiased">
+    <header class="flex items-center top-0 sticky z-[9] bg-black text-white py-4 px-6 mobile:max-smXl:px-2">
+      <div class="relative flex mr-auto">
+        <img src="./img/my_logo.jpg" alt="" class="h-[45px] mobile:max-sctm:h-[38.5px] z-10 opacity-1">
+        <img src="./img/my_logo_black.jpg" alt="" class="absolute h-[45px] mobile:max-sctm:h-[38.5px] z-10 opacity-0">
+      </div>
+
+      <label for="" class="flex cursor-pointer items-center">
+        <input class="absolute noOpacity" type="checkbox" id="toggleCheckbox">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 cursor-pointer sun">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-10 ctm:max-sm:mr-7 mobile:max-ctm:mr-5 cursor-pointer moon">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+        </svg> 
+        <span class="toggle"></span>
+      </label>
+
       <button
-        class="text-white tracking-wider border border-white px-5 mobile:max-sctm:px-4 py-2 rounded-full text-sm mobile:max-sctm:text-[13px] opacity-95"
+        class="text-white tracking-wider border border-white px-5 shadow-md mobile:max-sctm:px-4 py-2 rounded-full text-sm mobile:max-sctm:text-[13px] opacity-95"
       >
         Let's Connect
-      </button>
+      </button>     
     </header>
     <section class="mt-16 mb-[55px] mx-10 mobile:max-md:mx-8 flex mobile:max-mmd:flex-none mobile:max-mmd:flexBlock gap-28 xsXl:max-smXl:gap-20 md:max-xsXl:gap-14 mobile:max-md:gap-7 justify-center">
       <div class="max-w-[400px] mobile:max-mmd:max-w-[550px] mobile:max-mmd:flexBlock">
-        <p class="text-white welcome xsmd:max-mmd:text-8xl xsm:max-xsmd:text-[80px] ctm:max-xsm:text-[70px] vctm:max-ctm:text-[62px] sctm:max-vctm:text-[57px] mobile:max-sctm:text-[55px] tracking-normal mobile:max-mmd:tracking-wide mobile:max-sctm:leading-[1.16]">
+        <p class="text-white welcome xsmd:max-mmd:text-8xl xsm:max-xsmd:text-[80px] ctm:max-xsm:text-[70px] vctm:max-ctm:text-[62px] sctm:max-vctm:text-[57px] mobile:max-sctm:text-[55px] tracking-normal mobile:max-mmd:tracking-wide mobile:max-ctm:leading-[1.39]">
           Welcome to My Developer Portfolio
         </p>
         <button
-          class="text-white tracking-wide border border-white px-[27px] xsmd:max-mmd:px-[55px] mobile:max-xsmd:px-[50px] ctm:max-xsm:px-[40px] mobile:max-ctm:px-[25px] py-3 rounded-full text-base xsmd:max-mmd:text-xl ctm:max-xsmd:text-lg mobile:max-sctm:text-[15px] mt-14 opacity-95"
+          class="text-white tracking-wide border border-white px-[27px] shadow-md xsmd:max-mmd:px-[55px] mobile:max-xsmd:px-[50px] ctm:max-xsm:px-[40px] mobile:max-ctm:px-[25px] py-3 rounded-full text-base xsmd:max-mmd:text-xl ctm:max-xsmd:text-lg mobile:max-sctm:text-[15px] mt-14 opacity-95"
         >
           Sholanke Oladimeji / Software Developer
         </button>
       </div>
       <div>
         <img
-          class="h-[370px] w-[270px] -mt-5 oval xsmd:max-mmd:mt-14 mobile:max-xsmd:mt-12"
+          class="h-[370px] w-[270px] -mt-5 oval xsmd:max-mmd:mt-14 mobile:max-xsmd:mt-12 shadow-xl"
           src="./img/me_in_checkers_shrit(smaller_version).png"
           alt=""
         />
       </div>
       <div class="flex mt-[385px] mobile:max-mmd:mt-3 -ml-[120px] mmd:max-header:-ml-[150px] ctm:max-smXl:ml-[150px] mobile:max-ctm:ml-[120px] align-baseline gap-3">
         <img
-          class="text-white -rotate-[85deg] h-5 -mt-1"
+          class="-rotate-[85deg] h-5 -mt-1"
           src="./img/arrow-13.png"
           alt=""
         />
+        <img src="./img/arrow-13-black.svg" class="-rotate-[85deg] absolute opacity-0 h-5 -mt-1" alt="">
         <a href=""
           ><p class="text-white text-[15px] tracking-wide cursor-pointer">
             Work with me today
@@ -88,7 +105,7 @@
         </div>
         <div data-aos="zoom-in" data-aos-duration="2800" class="mobile:max-mmd:mt-5">
           <img
-            class="h-[420px] w-[300px] oval"
+            class="h-[420px] w-[300px] oval shadow-xl"
             src="./img/questionmark.jpg"
             alt=""
           />
@@ -112,6 +129,7 @@
                   src="./img/arrow-13.png"
                   alt=""
                 />
+                <img src="./img/arrow-13-black.svg" class="-rotate-[85deg] absolute opacity-0 h-5 -mt-1" alt="">
                 <a href=""
                   ><p class="text-xl tracking-wider cursor-pointer">
                     Education
@@ -119,7 +137,7 @@
                 >
               </div>
 
-              <div class="tracking-wide opacity-70 text-base translate-x-16">
+              <div class="tracking-wide opacity-80 text-base translate-x-16">
                 <ul class="list-disc max-w-80">
                   <li>B.SC Computer Science Undergraduate from Olabisi Onabanjo University 2022 - till date</li>
                   <li>Secondary school leaving certificate from Kankon Model College Badagry, 2021</li>
@@ -134,6 +152,7 @@
                   src="./img/arrow-13.png"
                   alt=""
                 />
+                <img src="./img/arrow-13-black.svg" class="-rotate-[85deg] absolute opacity-0 h-5 -mt-1" alt="">
                 <a href=""
                   ><p class="text-xl tracking-wider cursor-pointer">
                     Work Experience
@@ -141,7 +160,7 @@
                 >
               </div>
 
-              <div class="tracking-wide opacity-70 text-[16px] translate-x-16">
+              <div class="tracking-wide opacity-80 text-[16px] translate-x-16">
                 <ul class="list-disc max-w-80">
                   <li>
                     Website | Software Developer, 2021 - till date
@@ -180,7 +199,7 @@
           <div class="grid grid-cols-4 sm:max-mmd:grid-cols-3 mobile:max-sm:grid-cols-2 sctm:max-sm:gap-6 mobile:max-sctm:gap-4 placeholder: mt-11">
             <div data-aos="zoom-in" data-aos-duration="1500">
               <img
-                class="rounded-t-full w-[170px] h-[200px] bg-contain"
+                class="rounded-t-full w-[170px] h-[200px] bg-contain shadow-lg"
                 src="./img/bandage.png"
                 alt=""
               />
@@ -190,6 +209,7 @@
                   src="./img/arrow-13.png"
                   alt=""
                 />
+                <img src="./img/arrow-13-black.svg" class="-rotate-[85deg] absolute opacity-0 h-5 -mt-1" alt="">
                 <a href=""
                   ><p class="text-white text-[16px] tracking-wide cursor-pointer">
                     Bandage
@@ -200,7 +220,7 @@
             <!--  -->
             <div data-aos="zoom-in" data-aos-duration="2000">
               <img
-                class="rounded-t-full w-[170px] h-[200px] bg-contain"
+                class="rounded-t-full w-[170px] h-[200px] bg-contain shadow-lg"
                 src="./img/foodzero.png"
                 alt=""
               />
@@ -210,6 +230,7 @@
                   src="./img/arrow-13.png"
                   alt=""
                 />
+                <img src="./img/arrow-13-black.svg" class="-rotate-[85deg] absolute opacity-0 h-5 -mt-1" alt="">
                 <a href=""
                   ><p class="text-white text-[16px] tracking-wide cursor-pointer">
                     FoodZero
@@ -220,7 +241,7 @@
             <!--  -->
             <div data-aos="zoom-in" data-aos-duration="2500" class="mobile:max-sm:mt-14">
               <img
-                class="rounded-t-full w-[170px] h-[200px] bg-contain"
+                class="rounded-t-full w-[170px] h-[200px] bg-contain shadow-lg"
                 src="./img/easybank.png"
                 alt=""
               />
@@ -230,6 +251,7 @@
                   src="./img/arrow-13.png"
                   alt=""
                 />
+                <img src="./img/arrow-13-black.svg" class="-rotate-[85deg] absolute opacity-0 h-5 -mt-1" alt="">
                 <a href=""
                   ><p class="text-white text-[16px] tracking-wide cursor-pointer">
                     EasyBank
@@ -240,7 +262,7 @@
             <!--  -->
             <div data-aos="zoom-in" data-aos-duration="3000" class="mobile:max-mmd:mt-14">
               <img
-                class="rounded-t-full w-[170px] h-[200px] bg-contain"
+                class="rounded-t-full w-[170px] h-[200px] bg-contain shadow-lg"
                 src="./img/nexhub.png"
                 alt=""
               />
@@ -250,6 +272,7 @@
                   src="./img/arrow-13.png"
                   alt=""
                 />
+                <img src="./img/arrow-13-black.svg" class="-rotate-[85deg] absolute opacity-0 h-5 -mt-1" alt="">
                 <a href=""
                   ><p class="text-white text-[16px] tracking-wide cursor-pointer">
                     NEXHUB
@@ -275,16 +298,16 @@
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          My Sk<b>i</b>lls
+          My Tech Stack
         </p>
         <div class="grid grid-cols-5 xsmd:max-md:grid-cols-4 mobile:max-xsmd:grid-cols-3 mobile:max-xsm:grid-cols-2 gap-7">
           <div
-            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm cursor-pointer"
+            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
             <div class="block">
-              <img class="bg-white h-10" src="./img/html5.svg" alt="" />
+              <img class="bg-[#fff] h-10" src="./img/html5.svg" alt="" />
               <p
                 class="text-white text-[13px] mt-8 flex justify-center tracking-wider"
               >
@@ -294,52 +317,52 @@
           </div>
           <!--  -->
           <div
-            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm cursor-pointer"
+            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1400"
           >
             <div class="block">
-              <img class="bg-white h-10" src="./img/css3.svg" alt="" />
+              <img class="bg-[#fff] h-10" src="./img/css3.svg" alt="" />
               <p class="text-white text-[13px] mt-8 flex justify-center">CSS</p>
             </div>
           </div>
           <!--  -->
           <div
-            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm cursor-pointer"
+            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1600"
           >
             <div class="block">
-              <img class="bg-white h-10" src="./img/git.svg" alt="" />
+              <img class="bg-[#fff] h-10" src="./img/git.svg" alt="" />
               <p class="text-white text-[13px] mt-8 flex justify-center">Git</p>
             </div>
           </div>
           <!--  -->
           <div
-            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm cursor-pointer"
+            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1800"
           >
             <div class="block">
-              <img class="bg-white h-10" src="./img/php.svg" alt="" />
+              <img class="bg-[#fff] h-10" src="./img/php.svg" alt="" />
               <p class="text-white text-[13px] mt-8 flex justify-center">Php</p>
             </div>
           </div>
           <!--  -->
           <div
-            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm cursor-pointer"
+            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="2000"
             data-aos-offset="100"
           >
             <div class="block">
-              <img class="bg-white h-10" src="./img/cplusplus.svg" alt="" />
+              <img class="bg-[#fff] h-10" src="./img/cplusplus.svg" alt="" />
               <p class="text-white text-[13px] mt-8 flex justify-center">C++</p>
             </div>
           </div>
           <!--  -->
           <div
-            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm cursor-pointer"
+            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="2100"
           >
@@ -352,12 +375,12 @@
           </div>
           <!--  -->
           <div
-            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm cursor-pointer"
+            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1400"
           >
             <div class="block">
-              <img class="bg-white h-10" src="./img/tailwindcss.svg" alt="" />
+              <img class="bg-[#fff] h-10" src="./img/tailwindcss.svg" alt="" />
               <p
                 class="text-white text-[13px] mt-8 flex justify-center tracking-wider"
               >
@@ -367,12 +390,12 @@
           </div>
           <!--  -->
           <div
-            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm cursor-pointer"
+            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1600"
           >
             <div class="block">
-              <img class="bg-white h-10" src="./img/github.svg" alt="" />
+              <img class="bg-[#fff] h-10" src="./img/github.svg" alt="" />
               <p class="text-white text-[13px] mt-8 flex justify-center">
                 Github
               </p>
@@ -380,12 +403,12 @@
           </div>
           <!--  -->
           <div
-            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm cursor-pointer"
+            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1800"
           >
             <div class="block">
-              <img class="bg-white h-10" src="./img/mysql.svg" alt="" />
+              <img class="bg-[#fff] h-10" src="./img/mysql.svg" alt="" />
               <p class="text-white text-[13px] mt-8 flex justify-center">
                 MySQL
               </p>
@@ -393,12 +416,12 @@
           </div>
           <!--  -->
           <div
-            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm cursor-pointer"
+            class="flex justify-center border border-white opacity-85 h-40 w-[150px] items-center rounded-sm shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="2000"
           >
             <div class="block">
-              <img class="bg-white h-10" src="./img/react.svg" alt="" />
+              <img class="bg-[#fff] h-10" src="./img/react.svg" alt="" />
               <p class="text-white text-[13px] mt-8 flex justify-center">
                 React
               </p>
@@ -419,7 +442,7 @@
         <div class="mt-20 grid grid-cols-3 mobile:max-xsm:grid-cols-2 gap-32 mmd:max-md:gap-20 smd:max-mmd:gap-14 ssm:max-smd:gap-10 sctm:max-ssm:gap-6 mobile:max-sctm:gap-[30px]">
           <div data-aos="zoom-in" data-aos-duration="1500">
             <p class="text-white text-sm mobile:max-smd:text-base">Address</p>
-            <div class="text-white text-sm opacity-60 mt-1 mobile:max-smd:mt-2">
+            <div class="text-white text-sm opacity-70 mt-1 mobile:max-smd:mt-2">
               <p>3, Halleluyah Close, Esate 9, Redemption Camp,</p>
               <p>Ogun State, Nigeria.</p>
             </div>
@@ -427,12 +450,12 @@
 
           <div class="text-white text-sm" data-aos="zoom-in" data-aos-duration="2200">
             <p class="mobile:max-smd:text-base">Email</p>
-            <p class="opacity-60 mt-1 tracking-wide mobile:max-mmd:text-sm mobile:max-smd:mt-2">sholanke49@gmail.com</p>
+            <p class="opacity-70 mt-1 tracking-wide mobile:max-mmd:text-sm mobile:max-smd:mt-2">sholanke49@gmail.com</p>
           </div>
 
           <div class="text-white text-sm mobile:max-xsm:mt-3" data-aos="zoom-in" data-aos-duration="2900">
             <p class="mobile:max-smd:text-base">Phone</p>
-            <p class="opacity-60 mt-1 mobile:max-mmd:text-sm mobile:max-smd:mt-2">+234 08136170619</p>
+            <p class="opacity-70 mt-1 mobile:max-mmd:text-sm mobile:max-smd:mt-2">+234 08136170619</p>
           </div>
         </div>
 
@@ -444,6 +467,7 @@
               src="./img/arrow-13.png"
               alt=""
             />
+            <img src="./img/arrow-13-black.svg" class="-rotate-[85deg] absolute opacity-0 h-5 -mt-1" alt="">
             <a href=""
               ><p class="text-white text-[15px] tracking-wide cursor-pointer">
                 Let's collaborate
@@ -462,5 +486,7 @@
         offset: 50,
       });
     </script>
+
+    <script src="./portfolio.js"></script>
   </body>
 </html>
